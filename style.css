@@ -1,0 +1,131 @@
+.container > , .header{
+    background-color: rgb(9, 119, 5);
+    color: white;
+}
+
+.container > .box1, .box2, .box3, .box4, .box5{
+    background-color: black;
+    height: 330px;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.container > .box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
+    height: 270px;
+    width: 200px;
+    border-radius: 10px;
+}
+.container > .box1 img:hover, .box2 img:hover, .box3 img:hover, .box4 img:hover, .box5 img:hover{
+    background-color: brown;
+    border-radius: 5px;
+    border: 5px solid rgb(185, 109, 65);
+}
+
+.container > .box1 i, .box2 i, .box3 i, .box4 i, .box5 i{
+    color: blueviolet;
+    margin-right:100px;
+    padding: 5px;
+}
+.container > .box1 span, .box2 span, .box3 span, .box4 span, .box5 span{
+    
+    color: aqua;
+    font-size: 10px;
+    padding: 5px;
+    margin: 0;
+    
+}
+.btn button{
+    background-color: rgb(145, 3, 3);
+    font-size: medium;
+    width: 150px;
+    height: 40px;
+    border-color: rgb(0, 0, 0);
+}
+.btn{
+
+    display: flex;
+  justify-content: space-around;
+}
+.mname{
+    color: rgb(88, 28, 40);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:400px){
+    .container{
+        display: block;
+        margin: 0;
+        
+    }
+    .container > .box1, .box2, .box3, .box4, .box5{
+        height: 160px;
+        width: 100px;
+        border-radius: 5px;
+        justify-content: ;
+        column-gap: 2px;
+        margin-bottom: 10px;
+    }
+    .container > .box1 img, .box2 img, .box3 img, .box4 img, .box5 img{
+        height: 120px;
+        width: 100px;
+        border-radius:5px;
+        display: block;
+    }
+.btn button{
+    background-color: rgb(145, 3, 3);
+    font-size: medium;
+    width: 150px;
+    height: 40px;
+    border-color: rgb(0, 0, 0);
+}
+
+
+   .btn {
+    gap: 20px;
+    display: block;
+  justify-content: space-around;
+  
+   }
+   .mname{
+   
+    display: block;
+    justify-content: space-around;
+}
+
+.container > .box1 i, .box2 i, .box3 i, .box4 i, .box5 i{
+    color: blueviolet;
+    margin-right:5px;
+    padding: 5px;
+}
+.container > .box1 span, .box2 span, .box3 span, .box4 span, .box5 span{
+    
+    color: aqua;
+    font-size: 10px;
+    padding: 5px;
+    margin: 0;
+    
+}
+.mname{
+    color: rgb(88, 28, 40);
+    font-weight: bold;
+    display: block;
+    justify-content: space-around;
+    
+}
+
+
+
+
+
+
+
+
+
+}
